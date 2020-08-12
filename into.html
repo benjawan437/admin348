@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อมูลการเงิน</title>
+
+    <!-- meta, link css, font -->
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="css/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="css/adminlte.min.css">
+
+</head>
+
+<body class="sidebar-mini hold-transition layout-navbar-fixed accent-olive">
+    <div class="wrapper">
+        <!-- Navbar เมนูบน -->
+        <nav class="main-header navbar navbar-expand navbar-light navbar-olive">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
+
+            <!-- SEARCH FORM -->
+            <form class="form-inline ml-3 ml-auto">
+                <div class="input-group input-group-sm">
+                    <input class="form-control form-control-navbar" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-navbar" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Notifications Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-bell"></i>
+                        <span class="badge badge-warning navbar-badge">15</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <span class="dropdown-header">15 Notifications</span>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-envelope mr-2"></i> 4 new messages
+                            <span class="float-right text-muted text-sm">3 mins</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-users mr-2"></i> 8 friend requests
+                            <span class="float-right text-muted text-sm">12 hours</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-file mr-2"></i> 3 new reports
+                            <span class="float-right text-muted text-sm">2 days</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+
+        <!-- Main Sidebar Container เมนูด้านข้าง -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="index.html" class="brand-link">
+                <img src="im/1.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <span class="brand-text font-weight-light">Admin Stamp </span>
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar user panel (optional) -->
+                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                    <div class="image">
+                        <img src="im/2.jpg" class="img-circle elevation-2" alt="User Image">
+                    </div>
+                    <div class="info">
+                        <a href="https://frofile348.web.app/" class="d-block">Benjawan Pounpun</a>
+                    </div>
+                </div>
+
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                        data-accordion="false">
+                        <!-- Add icons to the links using the .nav-icon class
+                 with font-awesome or any other icon font library -->
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                <!-- <i class="nav-icon fas fa-th"></i> -->
+                                <i class="far fa-address-card"></i>
+                                <p>
+                                    ข้อมูลส่วนตัว
+                                    <span class="right badge badge-danger">New</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="into.html" class="nav-link">
+                                <!-- <i class="nav-icon fas fa-th"></i> -->
+                                <i class="far fa-chart-bar"></i>
+                                <p>
+                                    ข้อมูลการเงิน
+                                    <span class="right badge badge-danger">New</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="in2.html" class="nav-link">
+                                <!-- <i class="nav-icon fas fa-th"></i> -->
+                                <i class="fas fa-chart-area"></i>
+                                <p>
+                                    ติดต่อ
+                                    <span class="right badge badge-danger">New</span>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Content Wrapper. Contains page content เนื้อหา -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right ">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active ">Starter Page</li>
+                            </ol>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+
+            <!-- Main content -->
+            <div class="content">
+                <!-- AREA CHART -->
+                <div class="card card-olive">
+                    <div class="card-header">
+                        <h3 class="card-title">Monthly cost</h3>
+
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart">
+                            <canvas id="areaChart"
+                                style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+
+                <!-- /.card -->
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <div class="card card-olive">
+                            <div class="card-header">
+                                <h3 class="card-title">
+                                    <i class="fas fa-bullhorn"></i>
+                                    Important note
+                                </h3>
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body">
+                                <div class="callout callout-danger">
+                                    <h4>เก็บเงิน</h4>
+                                    <p>เมื่อได้เงินเป็นแบงค์ 50 ให้เก็บเอาไว้ห้ามจ่าย </p>
+                                </div>
+                                <div class="callout callout-info">
+                                    <h4>จำกัดค่าใช้จ่ายประจำวัน</h4>
+                                    <p>ไม่ควรใช้จ่ายเงินเกิน 150 บาท/วัน</p>
+                                </div>
+                                <div class="callout callout-warning">
+                                    <h4>อย่าลืมจ่ายนะ</h4>
+                                    <p>ค่าเน็ต ค่าน้ำ ค่าไฟ ค่าบ้าน อย่าลืมจ่ายละ</p>
+                                </div>
+                                <div class="callout callout-success">
+                                    <h4>เมื่อเงินหมดทำไง</h4>
+                                    <p>โทรหาแม่ หรือ ยาย หรือลุงเลยจ้าาาา</p>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card card-olive">
+                            <div class="card-header">
+                              <h3 class="card-title">Type of expenditure</h3>
+              
+                              <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                  <i class="fas fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                  <i class="fas fa-times"></i>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="card-body">
+                              <canvas id="donutChart" style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                            </div>
+                            <!-- /.card-body -->
+                          </div>
+                          <!-- /.card -->
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--...ติดต่อ-->
+
+        </div>
+        <!-- /.content-wrapper -->
+
+        <!-- Control Sidebar สไลด์ด้านข้าง-->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+            <div class="p-3">
+                <h5>Title</h5>
+                <p>Sidebar content</p>
+            </div>
+        </aside>
+        <!-- /.control-sidebar -->
+
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <!-- To the right -->
+            <div class="float-right d-none d-sm-inline">
+                Good luck
+            </div>
+            <!-- Default to the left -->
+            <strong>11 August 2020 <a href="https://adminlte.io">Admin Stamp</a>.</strong> All rights
+            reserved.
+        </footer>
+
+    </div>
+</body>
+<!-- script -->
+<!-- jQuery -->
+<script src="js/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="js/chart.js/Chart.min.js"></script>
+<!-- AdminLTE App -->
+<script src="js/bootstrap/adminlte.min.js"></script>
+
+<script>
+    $(function () {
+        var areaChartCanvas = $('#areaChart').get(0).getContext('2d')
+        var areaChartData = {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            datasets: [
+                {
+                    label: 'Expenditure',
+                    backgroundColor: 'rgba(91, 190, 109, 0.97)',
+                    borderColor: 'rgba(91, 190, 109, 0.97)',
+                    pointRadius: false,
+                    pointColor: '#3+b8bba',
+                    pointStrokeColor: 'rgba(60,141,188,1)',
+                    pointHighlightFill: '#fff',
+                    pointHighlightStroke: 'rgba(60,141,188,1)',
+                    data: [2840, 2400, 1530, 1690, 2200, 2180, 1900, 0, 0, 0, 0, 0, 0.00]
+                },
+                {
+                    label: 'Revenue',
+                    backgroundColor: 'rgba(168, 250, 183, 0.97)',
+                    borderColor: 'rgba(168, 250, 183, 0.97)',
+                    pointRadius: false,
+                    pointColor: 'rgba(210, 214, 222, 1)',
+                    pointStrokeColor: '#c1c7d1',
+                    pointHighlightFill: '#fff',
+                    pointHighlightStroke: 'rgba(220,220,220,1)',
+                    data: [3000, 3000, 2000, 2000, 2500, 2500, 2000, 2000, 3000, 3000, 3000, 3000, 0.00]
+                },
+            ]
+        }
+
+        var areaChartOptions = {
+            maintainAspectRatio: false,
+            responsive: true,
+            legend: {
+                display: false
+            },
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        display: false,
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        display: false,
+                    }
+                }]
+            }
+        }
+
+        var areaChartCanvas = $('#areaChart').get(0).getContext('2d')
+        var areaChart = new Chart(areaChartCanvas, {
+            type: 'line',
+            data: areaChartData,
+            options: areaChartOptions
+        })
+
+    })
+
+    $(function () {
+        //-------------
+        //- DONUT CHART -
+        //-------------
+        // Get context with jQuery - using jQuery's .get() method.
+        var donutChartCanvas = $('#donutChart').get(0).getContext('2d')
+        var donutData = {
+            labels: [
+                'ค่าอาหาร',
+                'ค่าอินเตอร์เน็ต',
+                'ค่าน้ำมันรถ',
+                'ค่าเงินเก็บ',
+            ],
+            datasets: [
+                {
+                    data: [1100, 400, 300, 200],
+                    backgroundColor: ['#407749', '#38ad4a', '#3eda56', '#4df566'],
+                }
+            ]
+        }
+        var donutOptions = {
+            maintainAspectRatio: false,
+            responsive: true,
+        }
+        //Create pie or douhnut chart
+        // You can switch between pie and douhnut using the method below.
+        var donutChart = new Chart(donutChartCanvas, {
+            type: 'doughnut',
+            data: donutData,
+            options: donutOptions
+        })
+    })
+
+</script>
+
+
+
+</html>

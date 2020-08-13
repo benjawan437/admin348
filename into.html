@@ -106,7 +106,6 @@
                                 <i class="far fa-address-card"></i>
                                 <p>
                                     ข้อมูลส่วนตัว
-                                    <span class="right badge badge-danger">New</span>
                                 </p>
                             </a>
                         </li>
@@ -116,7 +115,6 @@
                                 <i class="far fa-chart-bar"></i>
                                 <p>
                                     ข้อมูลการเงิน
-                                    <span class="right badge badge-danger">New</span>
                                 </p>
                             </a>
                         </li>
@@ -312,7 +310,7 @@
             maintainAspectRatio: false,
             responsive: true,
             legend: {
-                display: false
+                display: true
             },
             scales: {
                 xAxes: [{
@@ -327,7 +325,6 @@
                 }]
             }
         }
-
         var areaChartCanvas = $('#areaChart').get(0).getContext('2d')
         var areaChart = new Chart(areaChartCanvas, {
             type: 'line',
